@@ -1,0 +1,17 @@
+.debug .jumbo {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.debug .star_ruler {
+    width: 200px;
+    height: 50px;
+    background-color: aqua;
+}
+
+.debug .profession {
+    width: 500px;
+    height: 50px;
+    background-color: blue;
+}
