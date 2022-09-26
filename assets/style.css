@@ -18,5 +18,11 @@
 
 [class^="col-"] {
     background-color: orange;
-    border: 1px solid;
+    border: 1px solid black;
+}
+
+.debug .download_btn {
+    width: 100px;
+    height: 30px;
+    background-color: blueviolet;
 }
