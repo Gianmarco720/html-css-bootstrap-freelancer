@@ -40,6 +40,10 @@ header {
     background-color: var(--bg-secondarylight);
 }
 
+.back_secondary {
+    background-color: var(--bg-secondary);
+}
+
 .back_green {
     background-color: var(--bg-primary);
 }
@@ -52,7 +56,10 @@ header {
 .starline {
     width: 10%;
     height: 3px;
-    background-color: white;
     border-radius: 1rem;
     margin: 0 1rem;
+}
+
+.portfolio i {
+    color: var(--bg-secondary);
 }
