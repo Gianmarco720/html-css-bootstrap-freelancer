@@ -39,3 +39,20 @@
 header {
     background-color: var(--bg-secondarylight);
 }
+
+.back_green {
+    background-color: var(--bg-primary);
+}
+
+.jumbo_avatar {
+    width: 20%;
+    margin: auto;
+}
+
+.starline {
+    width: 10%;
+    height: 3px;
+    background-color: white;
+    border-radius: 1rem;
+    margin: 0 1rem;
+}
