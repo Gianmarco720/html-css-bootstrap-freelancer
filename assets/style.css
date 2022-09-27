@@ -40,8 +40,16 @@ header {
     background-color: var(--bg-secondarylight);
 }
 
+a {
+    text-decoration: none;
+}
+
 .back_secondary {
     background-color: var(--bg-secondary);
+}
+
+.back_secondarylight {
+    background-color: var(--bg-secondarylight);
 }
 
 .back_green {
@@ -62,4 +70,15 @@ header {
 
 .portfolio i {
     color: var(--bg-secondary);
+}
+
+.social {
+    display: inline-block;
+    line-height: 60px;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 22px;
+    border: 1px solid white;
+    border-radius: 50%;
 }
