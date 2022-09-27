@@ -1,3 +1,11 @@
+/* color palette */
+:root {
+    --bg-primary: #1ABC9C;
+    --bg-secondary: #2C3E50;
+    --bg-secondarylight: #3A546D;
+}
+
+/* #region debug */
 .debug .jumbo {
     background-color: red;
     width: 200px;
@@ -16,7 +24,7 @@
     background-color: blue;
 }
 
-[class^="col-"] {
+.debug [class^="col-"] {
     background-color: orange;
     border: 1px solid black;
 }
@@ -25,4 +33,9 @@
     width: 100px;
     height: 30px;
     background-color: blueviolet;
+}
+/* #endregion debug */
+
+header {
+    background-color: var(--bg-secondarylight);
 }
